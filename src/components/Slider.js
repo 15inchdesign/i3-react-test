@@ -1,30 +1,43 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import { LoremPicsum } from "react-lorem-picsum";
 
 export default class SimpleSlider extends Component {
   render() {
     const settings = {
-      dots: true,
+      dots: false,
+      arrows: false,
       infinite: true,
+      lazyLoad: 'ondemand',
       speed: 500,
       slidesToShow: 1,
-      //slidesToScroll: 1
+      slidesToScroll: 1,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 480,
+          settings: {
+            dots: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     };
     return (
       <div>
-        <h2> Single Item</h2>
         <Slider {...settings}>
         <div>
-            <img src="http://placekitten.com/g/400/200" alt="Img1" />
+            <LoremPicsum id={2} width={1920} height={1080} />
+            <div className='slick-caption'>i3 React Test</div>
+          </div>
+          <div>  
+            <LoremPicsum id={2} width={1920} height={1080} />
+            <div className='slick-caption'>i3 React Test</div>
           </div>
           <div>
-            <img src="http://placekitten.com/g/400/200" alt="Img2"/>
-          </div>
-          <div>
-            <img src="http://placekitten.com/g/400/200" alt="Img3"/>
-          </div>
-          <div>
-            <img src="http://placekitten.com/g/400/200" alt="Img4"/>
+            <LoremPicsum id={2} width={1920} height={1080} />
+            <div className='slick-caption'>i3 React Test</div>
           </div>
         </Slider>
       </div>

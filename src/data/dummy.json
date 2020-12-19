@@ -1,0 +1,25 @@
+{
+    "images": [
+        {
+            "id": "0",
+            "author": "Alejandro Escamilla",
+            "width": 1920,
+            "height": 1080,
+            "url": "https://picsum.photos/id/2/"
+        },
+        {
+            "id": "1",
+            "author": "Alejandro Escamilla",
+            "width": 1920,
+            "height": 1080,
+            "url": "https://picsum.photos/id/2/"
+        },
+        {
+            "id": "2",
+            "author": "Alejandro Escamilla",
+            "width": 1920,
+            "height": 1080,
+            "url": "https://picsum.photos/id/2/"
+        }
+    ]
+  }
