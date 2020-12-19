@@ -93,8 +93,7 @@ img {
 .slick-caption {
     margin: auto;
     position: absolute;
-    top: 50%; 
-    left: 50%;
+    top: 50%; left: 50%;
     -webkit-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
@@ -107,21 +106,13 @@ img {
 }
 
 .slick-track {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 40vw;
   }
   .slick-track .slick-slide {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: auto;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
   }
 
@@ -325,8 +316,8 @@ p {
 }
 
 .placeholder {
-    width: 30vw;
-    height: 40vw;
+    width: 39vw;
+    height: 50vw;
     margin-top: 0rem;
     padding: 6rem;
 }
@@ -349,9 +340,7 @@ p {
   }
 
   .mobile-nav {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
+    display: flex;
       width: 100%;
       position: relative;
       padding: 0;
