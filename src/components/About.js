@@ -1,6 +1,8 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 // https://github.com/rnosov/react-reveal/issues/101
+// https://github.com/rnosov/react-reveal/issues/89
+// https://stackoverflow.com/questions/63130534/could-not-find-a-declaration-file-for-module-types-latest-is-not-in-the-n
 import img1 from '../assets/bunny.png';
 import icon1 from '../assets/icons/investment.png';
 import icon2 from '../assets/icons/handshake.png';
